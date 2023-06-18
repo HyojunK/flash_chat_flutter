@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "152575457558",
+    "project_id": "flash-chat-7d8b6",
+    "storage_bucket": "flash-chat-7d8b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152575457558:android:127d281b21d4edecd83837",
+        "android_client_info": {
+          "package_name": "hyojun.com.flash_chat_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152575457558-lbib8bff27l7k14k899bicjrtcscesl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7yG0Gpty5-cb8lYt4KsHmQ4uDWEosScE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152575457558-lbib8bff27l7k14k899bicjrtcscesl9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "152575457558-ft1aevpratds55br1cv72oeal57v9epu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "hyojun.com.flashChatFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
