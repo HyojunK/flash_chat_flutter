@@ -50,8 +50,8 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA7yG0Gpty5-cb8lYt4KsHmQ4uDWEosScE',
+  static FirebaseOptions android = FirebaseOptions(
+    apiKey: dotenv.get('FIREBASE_APIKEY_ANDROID'),
     appId: '1:152575457558:android:127d281b21d4edecd83837',
     messagingSenderId: '152575457558',
     projectId: 'flash-chat-7d8b6',
@@ -59,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static FirebaseOptions ios = FirebaseOptions(
-    apiKey: dotenv.get('FIREBASE_APIKEY'),
+    apiKey: dotenv.get('FIREBASE_APIKEY_IOS'),
     appId: '1:152575457558:ios:ac38edaddb264278d83837',
     messagingSenderId: '152575457558',
     projectId: 'flash-chat-7d8b6',
