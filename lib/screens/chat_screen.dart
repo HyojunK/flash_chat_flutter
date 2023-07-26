@@ -81,6 +81,7 @@ class ChatScreenState extends State<ChatScreen> {
                         'text': messageText,
                         'timestamp': Timestamp.now(),
                       });
+                      FocusScope.of(context).unfocus();
                     },
                     child: const Text(
                       'Send',
